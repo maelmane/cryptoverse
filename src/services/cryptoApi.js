@@ -1,4 +1,4 @@
-import { CreateApi, createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const cryptoApiHeaders = {
   "X-RapidAPI-Key": "05cc0c329bmshfb3f7727fa87c80p10b92djsne66b0350fa61",
