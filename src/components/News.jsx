@@ -10,7 +10,6 @@ const {Option} = Select;
 const News = ({simplified}) => {
   const {data: cryptoNews} = useGetCryptoNewsQuery({newsCategory: 'cryptocurrency'})
 
-  console.log(cryptoNews)
   return (
     <div>
       Coming soon...
